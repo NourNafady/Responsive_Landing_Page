@@ -1,0 +1,28 @@
+body {
+  margin-top: 5px;
+  font-family: Arial, sans-serif;
+  background-color: bisque;
+  height: 2000px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  transition: background-color 0.3s;
+  text-align: center; /* Center align the links */
+}
+
+.navbar a {
+  display: inline-block; /* Make links display as block elements */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: blue; /* Change background color on hover */
+}
